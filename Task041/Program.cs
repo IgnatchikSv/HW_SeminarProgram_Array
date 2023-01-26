@@ -5,7 +5,7 @@
 */
 
 Console.Clear();
-Console.Write("Введите числа (через пробел): ");
+Console.Write("Введите числа: ");
 int[] array = Array.ConvertAll(Console.ReadLine().Split(), int.Parse);
 
 int count = 0;
